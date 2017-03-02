@@ -1,1 +1,80 @@
+@import url('https://fonts.googleapis.com/css?family=Open Sans');
 
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  vertical-align: baseline;
+}
+
+body {
+  background-color: #92977E;
+  color: #58641D; 
+  font-family: "Open Sans","Lucida Sans Unicode", Tahoma, Sans-Serif;
+  font-size: 16px;
+}
+
+#search-box {
+  border-radius: 5px;
+  position: relative;
+  margin: 8% auto auto auto;
+  width: 90%;
+  padding: 20px 30px;
+  display: table;
+  background-color: #fff;
+}
+
+input {
+  width: 35%;
+}
+
+input {
+  background: none;
+  border: 2px solid #D96F32;
+  border-radius: 5px;
+  box-sizing: border-box;
+  padding: 5px 15px 5px;
+  font-size: 12px;
+  color: #000;
+  z-index: 2;
+  position: relative;
+}
+
+input:focus, button:focus {
+  outline: none;
+}
+
+#search {
+  font-size: 20px;
+  color: #D96F32; 
+  position: relative;
+  z-index: 1;
+  left: -35px;
+  top: 3px;
+  cursor: pointer;
+  width: 0;
+}
+
+button {
+    background-color: #D96F32; /* Green */
+    border: none;
+    color: white;
+    padding: 5px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;    
+    border-radius: 5px;
+    font-size: 12px;
+}
+
+.result {
+  border: 1px solid #D96F32;
+  border-radius: 5px;
+  margin-bottom: 5px;
+  padding: 5px 15px;
+  font-size: 12px;
+}
+
+.gap-right {
+  margin-right: 10px; 
+}
