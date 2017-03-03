@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css?family=Open Sans');
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  vertical-align: baseline;
+}
+
+body {
+  background-color: #4A5E82;
+  color: #000; 
+  font-family: "Open Sans","Lucida Sans Unicode", Tahoma, Sans-Serif;
+  font-size: 16px;
+}
+
+#box {
+  border-radius: 5px;
+  position: relative;
+  margin: 8% auto 8% auto;
+  width: 90%;
+  padding: 20px 30px;
+  display: table;
+  background-color: #fff; 
+}
+
+#channels {
+  font-size: 12px;
+}
+
+#legend {
+  float: right;
+  font-size: 11px;
+  cursor: pointer;
+}
+
+.logo {
+  max-width: 50px;
+  max-height: 50px;
+  border-radius: 50%;
+  border: 2px solid #4A5E82;
+}
+
+.row {
+  margin: 2px 0px;
+  padding: 5px;
+  line-height: 50px;
+  border-radius: 5px;
+}
+
+.selector {
+  text-decoration: underline;
+}
+
+.online {
+  color: #FFF;
+  background-color: #55AA55;
+}
+
+#online {
+  color: #55AA55;
+}
+
+.offline {
+  color: #FFF;
+  background-color: #D46A6A;
+}
+
+#offline {
+  color: #D46A6A;
+}
+
+a {
+  color: #FFF;
+  text-decoration: underline;
+}
