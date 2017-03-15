@@ -26,7 +26,7 @@ function permAlone(str) {
     }); 
   }  
   
-  // Recursive function to get permutations from with minor modification to allow duplicates
+  // Recursive function to get permutations with minor modification to allow duplicates
   // http://stackoverflow.com/questions/39927452/recursively-print-all-permutations-of-a-string-javascript
   function getPermutations(str) {
     if (str.length < 2) return str;
