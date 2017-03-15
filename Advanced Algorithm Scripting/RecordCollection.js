@@ -2,15 +2,7 @@
   RecordCollection.js
   Problem: You are given a JSON object representing a part of your musical album collection. 
   Each album has several properties and a unique id number as its key. Not all albums have complete information.
-  
-  Valid formats:
-  555-555-5555
-  (555)555-5555
-  (555) 555-5555
-  555 555 5555
-  5555555555
-  1 555 555 5555
-  
+
   by: roldeguz
   date: 14-March-2017
 */
