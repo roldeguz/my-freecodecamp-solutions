@@ -2,14 +2,6 @@
   SymmetricDifference.js
   Problem: Create a function that takes two or more arrays and returns an array of the symmetric difference (△ or ⊕) of the provided arrays.
   
-  Valid formats:
-  555-555-5555
-  (555)555-5555
-  (555) 555-5555
-  555 555 5555
-  5555555555
-  1 555 555 5555
-  
   by: roldeguz
   date: 14-March-2017
 */
