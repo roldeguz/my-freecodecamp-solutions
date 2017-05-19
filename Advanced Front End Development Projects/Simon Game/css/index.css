@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css?family=Orbitron');
+
+* {
+  box-sizing: border-box;
+  font-family: 'Orbitron', sans-serif;
+}
+
+body {
+  background: #EAEBEC;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+#title {
+  font-size: 20px;
+}
+
+.circle {
+	border-radius: 50%;
+	width: 150px;
+	height: 150px;
+  margin-top: 15px;
+  border: 1px solid black;
+  text-align: center;
+  line-height: 150px;
+  font-size: 50px;
+  color: #FFF;
+}
+
+.right {
+  float: right;
+}
+
+.green {
+  background: #00A74A;
+}
+
+.circle-1-activated {
+  background: #13FF7C; 
+  box-shadow: 0 0 0 1px #e62b00 inset, 0 0 0 2px rgba(255, 255, 255, 0.15) inset, 0 0 0 1px rgba(0, 0, 0, 0.4);
+  background-color: #13FF7C;
+  -moz-transform: translateY(10px);
+  -ms-transform: translateY(10px);
+  -webkit-transform: translateY(10px);
+  transform: translateY(10px); 
+}
+
+.red {
+  background: #9F0F1C;
+}
+
+.circle-2-activated {
+  background: #FF4C4C;
+  box-shadow: 0 0 0 1px #e62b00 inset, 0 0 0 2px rgba(255, 255, 255, 0.15) inset, 0 0 0 1px rgba(0, 0, 0, 0.4);
+  background-color: #FF4C4C;
+  -moz-transform: translateY(10px);
+  -ms-transform: translateY(10px);
+  -webkit-transform: translateY(10px);
+  transform: translateY(10px); 
+}
+
+.yellow {
+  background: #CCA707;
+}
+
+.circle-3-activated {
+  background: #FED93F;
+  box-shadow: 0 0 0 1px #e62b00 inset, 0 0 0 2px rgba(255, 255, 255, 0.15) inset, 0 0 0 1px rgba(0, 0, 0, 0.4);
+  background-color: #FED93F;
+  -moz-transform: translateY(10px);
+  -ms-transform: translateY(10px);
+  -webkit-transform: translateY(10px);
+  transform: translateY(10px); 
+}
+
+.blue {
+  background: #094A8F;
+}
+
+.circle-4-activated {
+  background: #1C8CFF;
+  box-shadow: 0 0 0 1px #e62b00 inset, 0 0 0 2px rgba(255, 255, 255, 0.15) inset, 0 0 0 1px rgba(0, 0, 0, 0.4);
+  background-color: #1C8CFF;
+  -moz-transform: translateY(10px);
+  -ms-transform: translateY(10px);
+  -webkit-transform: translateY(10px);
+  transform: translateY(10px); 
+}
+
+button {
+  margin-top: 10px;
+  height: 30px;
+  width: 110px;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  background-color: #1D1F20;
+  outline: none;
+  font-size: 0.85em;
+  padding: 4px 10px 4px 9px;  
+  opacity: 1;
+  cursor: pointer;  
+}
